@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+  }
+
+  .flex-container > div {
+    /* margin: 10px; */
+    margin-left: 25vw;
+    margin-right: 25vw;
+    /* padding: 20px; */
+    font-size: 20px;
+  }
+
+.slide-in {
+    animation: slide-in 2s 1 linear;
+    animation-timing-function: ease;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-500px);;
+    }
+    100% {
+        transform: translateX(0px)
+    }
+}

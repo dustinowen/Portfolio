@@ -1,3 +1,26 @@
-/* .footer { 
-    grid-area: footer; 
-} */
+.footer {
+    text-align: center;
+    justify-content: center;
+}
+
+
+h3 {
+    display: inline;
+    vertical-align: center;
+}
+
+img{
+    vertical-align: text-bottom;
+    margin-top: 10px;;
+    /* margin-right: 10px; */
+}
+
+.spacer {
+    margin-bottom: 5px;
+    margin-left: 18px;
+}
+
+.margin {
+    margin-left: 15px;
+}
+

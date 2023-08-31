@@ -1,3 +1,4 @@
+import './about.css'
 import { useEffect, useState } from "react"
 
 export default function About(props) {
@@ -13,10 +14,11 @@ export default function About(props) {
     useEffect(() => { getAboutData() }, [])
 
     const loaded = () => (
-        <div>
-            <h2>{about.name}</h2>
-            <h3>{about.email}</h3>
-            <p>{about.bio}</p>
+        <div className='flex-container'>
+            <div><h2 style={{textAlign: "center"}}>{about.name}</h2></div>
+            {/* <div><h3>{about.email}</h3></div> */}
+            <div><p>{about.bio}</p></div>
+            <div><p>{about.bio2}</p></div>
         </div>
     )
 

@@ -14,7 +14,7 @@ export default function Header(props) {
   return (
       <header>
           <div className="nav-bar">
-      <h1>Dustin Owen Thomson</h1>
+      <h1>page title...</h1>
       <nav style={navStyle}>
         <Link to="/">
           <div>HOME</div>
