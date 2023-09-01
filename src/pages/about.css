@@ -12,19 +12,21 @@
   margin-left: 10vw; */
   margin: 2vmax;
   padding-top: 2vmax;
-  padding-bottom: 4vmax;;
+  padding-right: 1vmax;
+  padding-left: 1vmax;
+  padding-bottom: 4vmax;
   font-size: 20px;
   background-color: #ebbc57;
 }
 
 h2{
-    font-size: x-large;
+    font-size: 4vmin;
     font-weight: bold;
     display: inline;
 }
 
 .about-img {
-    height: 15vh;
+    height: 15vmin;
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 3vh;

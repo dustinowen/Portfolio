@@ -8,10 +8,10 @@
     padding: 20px;
     justify-content: center;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     font-size: 5vmin;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     background-color: #a3c7e1;
     /* border: 2px solid rgb(166, 224, 51); */
 }
