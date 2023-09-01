@@ -1,3 +1,4 @@
+import Typed from 'react-typed'
 import "./header.css";
 import { Link } from "react-router-dom";
 
@@ -13,22 +14,19 @@ export default function Header(props) {
 
   return (
     <header>
-      {/* <div className='nav-bar'> */}
       <div className="wrapper">
-        <section id="slide">
-          <h1>Hello, my name is Dustin — I am a Full-Stack Developer...</h1>
-        </section>
-        {/* <nav style={navStyle}>
-        <Link to="/">
-          <div>HOME</div>
-        </Link>
-        <Link to="/about">
-          <div>ABOUT</div>
-        </Link>
-        <Link to="/projects">
-          <div>PROJECTS</div>
-        </Link>
-                  </nav> */}
+          <h1>Hello, my name is Dustin —
+          <Typed
+            strings={[
+              "I am a JavaScript progr",
+              "I am an Express.js novi",
+              "I am a growing React devel",
+              "I am a Full-Stack Developer!",
+        ]}
+        typeSpeed={75}
+        backSpeed={50}
+        backDelay={200}
+      /></h1>
       </div>
     </header>
   );

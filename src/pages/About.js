@@ -1,4 +1,5 @@
 import './about.css'
+import Dustin from "../assets/imgs/Dustin.png"
 import { useEffect, useState } from "react"
 
 export default function About(props) {
@@ -15,10 +16,14 @@ export default function About(props) {
 
     const loaded = () => (
         <div className='flex-container'>
-            {/* <div><h2 className='slide-in' style={{textAlign: "center"}}>{about.name}</h2></div> */}
-            {/* <div><h3>{about.email}</h3></div> */}
-            <div><p>{about.bio}</p></div>
-            <div><p>{about.bio2}</p></div>
+            
+            <div>
+                <h2>Who is Dustin? <img className="about-img" src={Dustin} />Glad you asked!</h2>
+
+
+
+                <br />{about.bio}<br />
+            <br />{about.bio2}</div>
         </div>
     )
 

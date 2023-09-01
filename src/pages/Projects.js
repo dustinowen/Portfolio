@@ -34,5 +34,5 @@ export default function Projects(props) {
             );
 }
 
-  return projects ? loaded() : <h1>Loading...</h1>;
+  return projects ? loaded() : "";
 }

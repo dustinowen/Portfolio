@@ -1,29 +1,13 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Inknut+Antiqua:wght@300&family=Notable&family=Press+Start+2P&display=swap');
- */
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
 
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 body {
   justify-content: center;
-  /* font-family: 'Raleway', sans-serif; */
-  /* font-family: 'Inknut Antiqua', serif; */
   font-family: 'Raleway', sans-serif;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #5f9bb7
 }
-
-/*
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-.header { grid-area: header; }
-.leftSide { grid-area: leftSide; }
-.body { grid-area: body; }
-.rightSide { grid-area: rightSide; }
-.footer { grid-area: footer; } */

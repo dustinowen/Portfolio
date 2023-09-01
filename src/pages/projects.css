@@ -11,6 +11,7 @@
     justify-content: space-around;
     display: flex;
     flex-direction: row;
+    border: 2px solid red;
 
 }
 
