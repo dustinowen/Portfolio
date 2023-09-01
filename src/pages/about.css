@@ -6,12 +6,8 @@
 }
 
 .flex-container > div {
-  /* margin-top: 5vh;
-  margin-right: 10vw;
-  margin-bottom: 5vh;
-  margin-left: 10vw; */
-  margin: 2vmax;
-  padding-top: 2vmax;
+  margin: 5vmax;
+  padding-top: 5vmax;
   padding-right: 1vmax;
   padding-left: 1vmax;
   padding-bottom: 4vmax;

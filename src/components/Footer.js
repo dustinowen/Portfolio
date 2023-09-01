@@ -6,28 +6,27 @@ import email from "../assets/imgs/email.png";
 import resume from "../assets/imgs/resume.png";
 
 export default function Footer() {
-    return (
-      
+  return (
     <div className="footer">
-        <img src={coder} alt="coder" />
-        Let's Connect!
-<div>
-      <a href="https://github.com/dustinowen">
-        <img src={github} alt="github" />
-      </a>
+      <img src={coder} alt="coder" />
+      Let's Connect!
+      <div>
+        <a href="https://github.com/dustinowen">
+          <img src={github} alt="github" />
+        </a>
 
-      <a href="www.linkedin.com/in/dustinowenthomson">
-        <img src={linked} alt="linked-in" />
-      </a>
+        <a href="www.linkedin.com/in/dustinowenthomson">
+          <img src={linked} alt="linked-in" />
+        </a>
 
-      <a href="mailto: stratus.banner05@icloud.com">
-        <img src={email} alt="email" />
-      </a>
+        <a href="mailto: stratus.banner05@icloud.com">
+          <img src={email} alt="email" />
+        </a>
 
-      <a href="http://www.google.com">
-        <img src={resume} alt="resume" />
-              </a>
-</div>
+        <a href="http://www.google.com">
+          <img src={resume} alt="resume" />
+        </a>
+      </div>
     </div>
   );
 }

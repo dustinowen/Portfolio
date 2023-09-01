@@ -34,7 +34,7 @@ export default function Projects(props) {
                     </a>
                 </div>
             ))}
-                </section><h3>(projects completed during my <a href="http://https://generalassemb.ly/">General Assembly</a> course)</h3></section>
+                </section><h3>(projects completed during my <a href="https://generalassemb.ly/">General Assembly</a> course)</h3></section>
                 </>
             );
 }
