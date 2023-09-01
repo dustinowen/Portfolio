@@ -1,4 +1,4 @@
-import './header.css'
+import "./header.css";
 import { Link } from "react-router-dom";
 
 export default function Header(props) {
@@ -12,10 +12,13 @@ export default function Header(props) {
   };
 
   return (
-      <header>
-          <div className="nav-bar">
-      <h1>page title...</h1>
-      <nav style={navStyle}>
+    <header>
+      {/* <div className='nav-bar'> */}
+      <div className="wrapper">
+        <section id="slide">
+          <h1>Hello, my name is Dustin — I am a Full-Stack Developer...</h1>
+        </section>
+        {/* <nav style={navStyle}>
         <Link to="/">
           <div>HOME</div>
         </Link>
@@ -25,8 +28,8 @@ export default function Header(props) {
         <Link to="/projects">
           <div>PROJECTS</div>
         </Link>
-              </nav>
-              </div>
+                  </nav> */}
+      </div>
     </header>
   );
 }

@@ -1,17 +1,41 @@
-/* .header { grid-area: header; 
-    font-family: 'Cinzel', serif; 
-    text-shadow: .5px .5px #ffffff;  
-    color: rgb(209, 158, 64)
+.nav-bar{
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    color: #e08f48
 }
 
-a{
+/* a{
     color: rgb(226, 211, 43);
+} */
 
+
+.wrapper {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    font-size: x-large;
+    text-align: center;
+    width: 70vw;
+    height: 20vh; 
+    border: 1px solid black;
 }
 
+#slide {
+    position: absolute;
+    left: -1000px;
+    height: 100px;
+    -webkit-animation: slide 2s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 2s forwards;
+    animation-delay: 1s;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Notable&family=Press+Start+2P&display=swap');
- */
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
 
-
- 
+@keyframes slide {
+    100% { left: 0; }
+}

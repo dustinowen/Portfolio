@@ -15,12 +15,12 @@ export default function About(props) {
 
     const loaded = () => (
         <div className='flex-container'>
-            <div><h2 style={{textAlign: "center"}}>{about.name}</h2></div>
+            {/* <div><h2 className='slide-in' style={{textAlign: "center"}}>{about.name}</h2></div> */}
             {/* <div><h3>{about.email}</h3></div> */}
             <div><p>{about.bio}</p></div>
             <div><p>{about.bio2}</p></div>
         </div>
     )
 
-    return about ? loaded() : <h1>Loading...</h1>
+    return about ? loaded() : <h1></h1>
 }
