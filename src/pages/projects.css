@@ -1,13 +1,18 @@
-.project-list{
-    /* display: grid;
-    grid-template-columns: 1;
-    gap: 2rem 1.5rem;
-    margin: 2rem;*/
-    /* margin: 15vw 25vh 25vw 25vh; */
-    margin-left: 25vw;
-    margin-right: 25vw;
+.title {
+    border: 2px solid greenyellow;
+    text-align: center;
     margin-top: 10vh;
     margin-bottom: 10vh;
+    padding: 2vh;
+}
+
+.title > h2 {
+    text-decoration: underline;
+}
+
+.project-list{
+    margin-left: 10vw;
+    margin-right: 10vw;
     justify-content: space-around;
     display: flex;
     flex-direction: row;
@@ -16,16 +21,27 @@
 }
 
 .project-card{
-    border: 3px solid #333;
-    /* border-color: #102f45; */
-    /* border-color: #2d657f; */
-    border-color: #ed8a34;
+    width: 30vw;
+    height: 30vh;
+    border: 3px solid #ed8a34;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: .5rem;
-    /* color: #ed8a34; */
-    /* color: #2d657f; */
     color: #102f45;
+}
+
+.project-card > h1 {
+    font-size: x-large;
+    font-weight: 900;
+}
+
+h3{
+    padding: 2vh;
+    font-style: italic;
+}
+
+h3 > a {
+    color: #e08f48
 }

@@ -17,7 +17,11 @@ export default function Projects(props) {
 
     const loaded = () => {
         return (
+
+            <>
+            <section className="title"><h2>Take a look at my recent projects:</h2><br/>
             <section className="project-list">
+           
             {projects.map((project) => (
                 <div className="project-card">
                     <h1>{project.name}</h1>
@@ -30,7 +34,8 @@ export default function Projects(props) {
                     </a>
                 </div>
             ))}
-                </section>
+                </section><h3>(projects completed during my <a href="http://https://generalassemb.ly/">General Assembly</a> course)</h3></section>
+                </>
             );
 }
 

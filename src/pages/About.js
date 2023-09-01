@@ -18,7 +18,9 @@ export default function About(props) {
         <div className='flex-container'>
             
             <div>
-                <h2>Who is Dustin? <img className="about-img" src={Dustin} />Glad you asked!</h2>
+                <h2>Who is Dustin? <img className="about-img" src={Dustin} />
+                    {/* I'm glad you asked!</h2> */}
+                    Glad you asked!</h2>
 
 
 
