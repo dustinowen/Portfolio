@@ -11,19 +11,19 @@ export default function Footer() {
       <img src={coder} alt="coder" />
       Let's Connect!
       <div>
-        <a href="https://github.com/dustinowen">
+        <a href="https://github.com/dustinowen" title="GitHub">
           <img src={github} alt="github" />
         </a>
 
-        <a href="www.linkedin.com/in/dustinowenthomson">
+        <a href="www.linkedin.com/in/dustinowenthomson" title="Linked In">
           <img src={linked} alt="linked-in" />
         </a>
 
-        <a href="mailto: stratus.banner05@icloud.com">
+        <a href="mailto: stratus.banner05@icloud.com" title="Send Me An Email">
           <img src={email} alt="email" />
         </a>
 
-        <a href="http://www.google.com">
+        <a href="http://www.google.com" title="My Resume">
           <img src={resume} alt="resume" />
         </a>
       </div>

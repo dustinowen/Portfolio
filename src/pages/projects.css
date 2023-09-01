@@ -1,47 +1,46 @@
 .title {
-    border: 2px solid greenyellow;
-    text-align: center;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    padding: 2vh;
+  border: 2px solid greenyellow;
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  padding: 2vh;
 }
 
 .title > h2 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.project-list{
-    margin-left: 10vw;
-    margin-right: 10vw;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: row;
-    border: 2px solid red;
-
+.project-list {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid red;
 }
 
-.project-card{
-    width: 30vw;
-    height: 30vh;
-    border: 3px solid #ed8a34;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: .5rem;
-    color: #102f45;
+.project-card {
+  width: 30vw;
+  height: 30vh;
+  border: 3px solid #ed8a34;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+  color: #102f45;
 }
 
 .project-card > h1 {
-    font-size: x-large;
-    font-weight: 900;
+  font-size: x-large;
+  font-weight: 900;
 }
 
-h3{
-    padding: 2vh;
-    font-style: italic;
+h3 {
+  padding: 2vh;
+  font-style: italic;
 }
 
 h3 > a {
-    color: #e08f48
+  color: #e08f48;
 }

@@ -1,16 +1,21 @@
-.wrapper { 
-    height: 20vmin;
-    border-radius: 8%;
-    margin-top: 5vh;
-    margin-right: 10vw;
-    margin-bottom: 5vh;
-    margin-left: 10vw;
-    padding: 20px;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    font-size: 5vmin;
-    font-weight: bold;
-    text-align: center;
-    background-color: #a3c7e1;
+header {
+    border: 2px solid blanchedalmond;
+}
+
+.wrapper {
+  height: 20vmin;
+  border-radius: 8%;
+  margin-top: 3vh;
+  margin-right: 10vw;
+  margin-bottom: 1vh;
+  margin-left: 10vw;
+  padding: 20px;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  font-size: 5vmin;
+  font-weight: bold;
+  text-align: center;
+  background-color: #a3c7e1;
+  box-shadow: inset 0 0 0 1vmax #192f44;
 }
