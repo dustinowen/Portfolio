@@ -17,7 +17,7 @@ export default function Projects(props) {
   const loaded = () => {
     return (
       <>
-        <section className="title">
+        <section className="projects" id="exp">
           <h2>Take a look at my recent projects:</h2>
           <br />
           <section className="project-list">

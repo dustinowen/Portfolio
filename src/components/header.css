@@ -1,35 +1,51 @@
 header {
-    height: 100vh;
-    border: 2px solid blanchedalmond;
+  height: 100vh;
+  /* border: 2px solid blanchedalmond; */
 }
 
 .wrapper > h1 {
-
-  border-radius: 8%;
-  margin-top: 10vh;
-  margin-right: 10vw;
-  margin-bottom: 1vh;
-  margin-left: 10vw;
-  padding: 20px;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-  font-size: 5vmax;
-  font-weight: bold;
-  text-align: center;
-  background-color: #a3c7e1;
-  /* box-shadow: inset 0 0 0 1vmax #192f44; */
-  box-shadow: inset 0 0 0 .2vmax #f7e2d2;
+    border-radius: 8%;
+    margin-top: 10vh;
+    margin-right: 10vw;
+    margin-bottom: 1vh;
+    margin-left: 10vw;
+    padding: 20px;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 5vmax;
+    font-weight: bold;
+    text-align: center;
+    background-color: #a3c7e1;
+    box-shadow: inset 0 0 0 0.2vmax #f7e2d2;
+    /* border: 2px solid red; */
 }
 
 .buttons {
-    width: 50vmax;
-    margin: auto;
-    border: 1px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 1vw;
+  grid-row-gap: 1vh;
+  width: 60vmax;
+  height: 20vmax;
+  margin-top: 7vmax;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  justify-content: right;
+  /* border: 1px solid red; */
 }
 
-.buttons > img {
-    height: 5vmax;
-    border-radius: 10px;
-    /* width: 20vmax; */
+.buttons > a {
+  width: 25vmax;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.buttons > a > img {
+  height: 6.5vmax;
+  width: 25vmax;;
+  border-radius: 10px;
+  border: 2px solid #f7e2d2;
 }

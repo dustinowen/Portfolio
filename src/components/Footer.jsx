@@ -7,7 +7,7 @@ import resume from "../assets/imgs/resume.png";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="connect">
       <img src={coder} alt="coder" />
       Let's Connect!
       <div>

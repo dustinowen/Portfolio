@@ -1,22 +1,23 @@
-.title {
+.projects {
+  height: 100vh;
   border: 2px solid greenyellow;
   text-align: center;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
-  padding: 2vh;
+  justify-content: center;
+  padding-top: 10vmax;
 }
 
-.title > h2 {
+.projects > h2 {
   text-decoration: underline;
 }
 
 .project-list {
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 10vmax;
+  margin-right: 10vmax;
+  padding-top: 5vmax;
   justify-content: space-around;
   display: flex;
   flex-direction: row;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .project-card {
@@ -36,11 +37,11 @@
   font-weight: 900;
 }
 
-h3 {
+.projects > h3 {
   padding: 2vh;
   font-style: italic;
 }
 
-h3 > a {
+.projects > h3 > a {
   color: #e08f48;
 }

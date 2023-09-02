@@ -16,7 +16,7 @@ export default function About(props) {
   }, []);
 
   const loaded = () => (
-    <div className="flex-container">
+    <div className="flex-container" id="about">
       <div>
         <h2>
           Who is Dustin? <img className="about-img" src={Dustin} />
