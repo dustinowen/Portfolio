@@ -8,6 +8,10 @@
   font-weight: bold;
 }
 
+.footer > img {
+  margin-right: 20px;
+}
+
 .footer > div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

@@ -11,3 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #5f9bb7;
 }
+
+html {
+  scroll-behavior: smooth;
+}

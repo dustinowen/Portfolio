@@ -31,7 +31,7 @@ export default function Projects(props) {
                   <button>Github</button>
                 </a>
                 <a href={project.live}>
-                  <button>live site</button>
+                  {/* <button>live site</button> */}
                 </a>
               </div>
               
@@ -39,7 +39,7 @@ export default function Projects(props) {
           </section>
 
           <h3>
-            (projects completed during my{" "}
+            (projects above completed during my{" "}
             <a href="https://generalassemb.ly/">General Assembly</a> course)
           </h3>
         </section>
