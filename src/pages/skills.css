@@ -3,6 +3,7 @@
 }
 
 .skills-container > h1 {
+  padding-top: 5vmax;
   text-align: center;
   font-weight: 900;
   font-size: xx-large;
@@ -10,7 +11,7 @@
 }
 
 .img-container {
-  margin-top:2vh;
+  margin-top: 2vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;

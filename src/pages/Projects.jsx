@@ -37,11 +37,11 @@ export default function Projects(props) {
               
             ))}
           </section>
-
           <h3>
             (projects above completed during my{" "}
             <a href="https://generalassemb.ly/">General Assembly</a> course)
           </h3>
+
         </section>
       </>
     );

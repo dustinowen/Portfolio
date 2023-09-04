@@ -1,5 +1,6 @@
 section {
   height: 100vh;
+  padding-top: 5vmax;
 }
 
 .flex-container > div {
@@ -15,7 +16,7 @@ section {
   background-color: #e8cbae;
 }
 
-h2 {
+.flex-container > h2 {
   font-size: 4vmin;
   font-weight: bold;
   display: inline;

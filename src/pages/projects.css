@@ -1,18 +1,18 @@
 .projects {
-  display: grid;
+  /* display: grid; */
   height: 100vh;
   text-align: center;
   justify-content: center;
-  padding-top: 10vmax;
 }
 
 .projects > h2 {
   text-decoration: underline;
+  font-weight: 900;
   font-size: xxx-large;
 }
 
 .project-list {
-  height: 40vh;
+  height: 50vh;
   margin-left: 10vmax;
   margin-right: 10vmax;
   justify-content: space-around;
@@ -21,7 +21,7 @@
 
 .project-card {
   width: 30vw;
-  height: 45vh;
+  height: 40vh;
   margin-left: 25px;
   margin-right: 25px;
   border: 4px solid #d9b694;
@@ -37,7 +37,7 @@
   height: 25vh;
   border: 2px solid black;
   border-radius: 10px;
-  margin-bottom: 5px;;
+  margin-bottom: 5px;
 }
 
 .project-card > h1 {
