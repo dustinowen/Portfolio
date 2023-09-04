@@ -9,7 +9,7 @@ import R_IMG from "../assets/imgs/skills/react.png";
 export default function Skills() {
   return (
     <div className="skills-container" id="skills">
-      <h1>SKILLS SECTION</h1>;
+      <h1>SKILLS SECTION (design in progress...)</h1>;
       <div class="img-container">
         <img src={CSS} alt="" />
         <img src={EXPRESS} alt="" />

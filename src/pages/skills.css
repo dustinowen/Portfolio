@@ -2,17 +2,21 @@
   height: 100vh;
 }
 
+.skills-container > h1 {
+  text-align: center;
+  font-size: large;
+}
 .img-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 1vw;
-  grid-row-gap: 1vh;
+  grid-row-gap: 5vh;
   border: 2px solid red;
 }
 
 .img-container > img {
-  height: 35vh;
+  height: 30vh;
   padding: 20px;
   margin-left: auto;
   margin-right: auto;

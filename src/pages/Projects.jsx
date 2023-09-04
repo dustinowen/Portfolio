@@ -20,8 +20,10 @@ export default function Projects(props) {
         <section className="projects" id="exp">
           <h2>Take a look at my recent projects:</h2>
           <br />
+
           <section className="project-list">
             {projects.map((project) => (
+
               <div className="project-card">
                 <h1>{project.name}</h1>
                 <img src={project.image} />
@@ -32,8 +34,10 @@ export default function Projects(props) {
                   <button>live site</button>
                 </a>
               </div>
+              
             ))}
           </section>
+
           <h3>
             (projects completed during my{" "}
             <a href="https://generalassemb.ly/">General Assembly</a> course)

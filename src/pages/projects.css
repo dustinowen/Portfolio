@@ -1,6 +1,7 @@
 .projects {
+  display: grid;
   height: 100vh;
-  border: 2px solid greenyellow;
+  /* border: 2px solid greenyellow; */
   text-align: center;
   justify-content: center;
   padding-top: 10vmax;
@@ -8,23 +9,26 @@
 
 .projects > h2 {
   text-decoration: underline;
+  font-size: xx-large;
 }
 
 .project-list {
+  height: 40vh;
   margin-left: 10vmax;
   margin-right: 10vmax;
-  padding-top: 5vmax;
+  /* padding-top: 5vmax; */
   justify-content: space-around;
   display: flex;
-  flex-direction: row;
   /* border: 2px solid red; */
 }
 
 .project-card {
   width: 30vw;
   height: 30vh;
+  margin-left: 25px;
+  margin-right: 25px;
   border: 3px solid #ed8a34;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +42,6 @@
 }
 
 .projects > h3 {
-  padding: 2vh;
   font-style: italic;
 }
 
