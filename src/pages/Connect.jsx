@@ -1,4 +1,4 @@
-import "./footer.css";
+import "./connect.css";
 import coder from "../assets/imgs/coder.png";
 import github from "../assets/imgs/github.png";
 import linked from "../assets/imgs/linked-in.png";

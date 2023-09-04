@@ -1,9 +1,9 @@
 import Typed from "react-typed";
-import About from "../assets/imgs/about.png"
-import Skills from "../assets/imgs/skills.png"
-import Exp from "../assets/imgs/exp.png"
-import Connect from "../assets/imgs/connect.png"
-import "./header.css";
+import About from "../assets/imgs/about.png";
+import Skills from "../assets/imgs/skills.png";
+import Exp from "../assets/imgs/exp.png";
+import Connect from "../assets/imgs/connect.png";
+import "./home.css";
 
 export default function Header(props) {
   return (
@@ -23,29 +23,24 @@ export default function Header(props) {
             backDelay={100}
           />
         </h1>
-     
+
         <div className="buttons">
-        
-          <a href={'#about'}>
+          <a href={"#about"}>
             <img src={About} alt="about me" height={"5vmax"} />
           </a>
 
-          <a href={'#skills'}>
+          <a href={"#skills"}>
             <img src={Skills} alt="my skills" />
           </a>
 
-          <a href={'#exp'}>
+          <a href={"#exp"}>
             <img src={Exp} alt="my experience" />
           </a>
 
-          <a href={'#connect'}>
+          <a href={"#connect"}>
             <img src={Connect} alt="connect" />
           </a>
-          
-
-
-
-      </div>
+        </div>
       </div>
     </header>
   );

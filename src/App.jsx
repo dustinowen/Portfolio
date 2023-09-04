@@ -1,15 +1,15 @@
 import "./App.css";
 
-import Header from "./components/Header";
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
-import Footer from "./components/Footer";
+import Footer from "./pages/Connect";
 
 export default function App() {
   return (
     <div className="body">
-      <Header />
+      <Home />
       <About />
       <Skills />
       <Projects />
